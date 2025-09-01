@@ -64,7 +64,7 @@ function EditCreator() {
             <label htmlFor="name"> tag</label>
             <input type="text" name='tag' value={formData.tag} onChange={handleChange} />
             <label htmlFor="description"> description</label>
-            <input type="text" name='description'value={formData.description} onChange={handleChange} />
+            <textarea rows = '10' cols = '50' type="text" name='description'value={formData.description} onChange={handleChange} />
             <label htmlFor="imgurl"> image Link</label>
             <input type="text" name='imgurl' value={formData.imgurl} onChange={handleChange} />
             <input type="submit" placeholder='add creator' />
